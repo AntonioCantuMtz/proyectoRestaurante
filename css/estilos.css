@@ -55,9 +55,9 @@ header {
       font-size: 25px;
       font-style: italic; }
 
-/* ----- ----- SECCION MAIN ----- ----- */
+/* ----- ----- MAIN ----- ----- */
 .main {
-  background: url("../img/bg-textura.png");
+  background: url("../img/so-white.png");
   background-repeat: repeat;
   /* ----- ----- SUB SECCION ACERCA DE ----- ----- */
   /* ----- ----- SUB SECCION MENU ----- ----- */
@@ -196,3 +196,11 @@ header {
     .main .mapa iframe {
       width: 100%;
       max-height: 600px; }
+
+/* ----- ----- PIE DE PAGINA ----- ----- */
+footer {
+  background: #000; }
+  footer .copyright {
+    text-align: center;
+    padding: 15px 0;
+    color: #fff; }

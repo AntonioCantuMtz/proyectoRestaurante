@@ -63,9 +63,9 @@ header {
     }
 }
 
-/* ----- ----- SECCION MAIN ----- ----- */
+/* ----- ----- MAIN ----- ----- */
 .main {
-    background: url("../img/bg-textura.png");
+    background: url("../img/so-white.png");
     background-repeat: repeat;
 
     /* ----- ----- SUB SECCION ACERCA DE ----- ----- */
@@ -232,6 +232,14 @@ header {
             max-height: 600px;
         }
     }
-
 }
 
+/* ----- ----- PIE DE PAGINA ----- ----- */
+footer {
+    background: #000;
+    .copyright {
+        text-align: center;
+        padding: 15px 0;
+        color: #fff;
+    }
+}
