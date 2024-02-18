@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    /* EFECTO MENU */
     //Para que se le vaya aplicando el efecto de uno en uno a cada uno de los elementos 
     $(".menu a").each(function(index, elemento){
         $(this).css({
@@ -12,5 +13,18 @@ $(document).ready(function(){
         }, 2000 + (index * 500));
     });
 
+    /** EFECTO HEADER */
+    if( $(window).width() > 800 )
+    {
+        $("header .textos").css({
+            opacity: 0,
+            marginTop: 0
+        });
+
+        $("header .textos").animate({
+            opacity: 1,
+            marginTop: "-52px"
+        }, 1500);
+    }   
 
 });
