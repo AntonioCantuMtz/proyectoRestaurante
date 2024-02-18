@@ -84,7 +84,7 @@ header {
     padding: 40px;
     width: 50%;
     position: relative;
-    top: 150px;
+    top: 90px;
     z-index: 1;
     /*Para que el articulo este por encima de la foto*/
     float: right;
